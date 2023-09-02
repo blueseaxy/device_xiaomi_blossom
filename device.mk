@@ -3,7 +3,9 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-TARGET_DISABLE_EPPE := true
+# Disable EPPE
+# TARGET_DISABLE_EPPE := true
+
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 

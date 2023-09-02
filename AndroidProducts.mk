@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_blossom.mk
+    $(LOCAL_DIR)/aosp_blossom.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_blossom-user \
-    spark_blossom-userdebug \
-    spark_blossom-eng
+    aosp_blossom-user \
+    aosp_blossom-userdebug \
+    aosp_blossom-eng
 
